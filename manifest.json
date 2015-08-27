@@ -7,10 +7,13 @@
     {
       "matches" : ["<all_urls>"],
       "js" : [
-        "js/shim.js"
+        "js/shim-loader.js"
       ],
       "run_at" : "document_start"
     }
+  ],
+  "web_accessible_resources" : [
+    "js/shim.js"
   ],
   "permissions" : [
     "<all_urls>"
